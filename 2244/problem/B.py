@@ -13,7 +13,8 @@ def solution():
         leftover_num = current_num - new_num
 
 
-        if prev_num >= new_num or leftover_num<0:
+        # if prev_num >= new_num or leftover_num<0:
+        if leftover_num<0:
             print("NO")
             return
 
